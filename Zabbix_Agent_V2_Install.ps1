@@ -20,7 +20,7 @@ $versionssl = "https://cdn.zabbix.com/zabbix/binaries/stable/6.2/6.2.0/zabbix_ag
 $serverHostname =  Invoke-Command -ScriptBlock {hostname}
 
 # Asks the user for the IP address of their Zabbix server
-$ServerIP = Read-Host -Prompt 'What is your Zabbix server/proxy IP?'
+$ServerIP = {zabbixserver}
 
 # Creates Zabbix DIR
 mkdir c:\zabbix
