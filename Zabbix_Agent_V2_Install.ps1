@@ -8,11 +8,13 @@
 # Version 1.02
 # Created by Twikki
 # Last updated 29/10/2021
+#Updated Kkerr 25-07-2022
 
 
 # Download links for different versions 
 # 
-$versionssl = "https://cdn.zabbix.com/zabbix/binaries/stable/5.4/5.4.7/zabbix_agent2-5.4.7-windows-amd64-openssl-static.zip"
+$versionssl = "https://cdn.zabbix.com/zabbix/binaries/stable/6.2/6.2.0/zabbix_agent2-6.2.0-windows-amd64-openssl-static.zip"
+
 
 #Gets the server host name
 $serverHostname =  Invoke-Command -ScriptBlock {hostname}
